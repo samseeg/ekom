@@ -1,13 +1,45 @@
 .itemCardWrapper {
-  display: grid;
-  margin: 0 120px;
+    // width: 100%;
+  margin: 65px 120px;
 
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-//   grid-template-areas: "... card ...";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-// .card {
-// //   grid-area: card;
-// //   height: auto;
-// }
+.card {
+    min-width: 27%;
+    max-width: 30%;
+    border: 3px black solid;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+
+    img {
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .gender {
+        color: #979797;
+    }
+
+    .name {
+        font-size: 1.7rem;
+    }
+
+    .price {
+        font-size: 2.7rem;
+    }
+
+    .size {
+        font-size: 1.7rem;
+    }
+
+    .addToBag {
+        font-size: 1.7rem;
+    }
+}
