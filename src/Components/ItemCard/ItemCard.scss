@@ -1,0 +1,13 @@
+.itemCardWrapper {
+  display: grid;
+  margin: 0 120px;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+//   grid-template-areas: "... card ...";
+}
+
+// .card {
+// //   grid-area: card;
+// //   height: auto;
+// }
