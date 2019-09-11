@@ -1,0 +1,31 @@
+.bagWrapperOpen {
+    position: fixed;
+    right: 0px;
+    top: 83px;
+    height: 530px;
+    width: 500px;
+    background-color: rgb(51, 51, 51, 0.98);
+    overflow: scroll;
+    transition: .3s;
+}
+
+.bagWrapperClosed {
+    position: fixed;
+    right: 0px;
+    top: -530px;
+    height: 530px;
+    width: 500px;
+    padding-top: 20px;
+    background-color: rgb(51, 51, 51, 0.98);
+    overflow: scroll;
+    transition: .3s;
+}
+
+.itemWrapper {
+    position: relative;
+    height: 150px;
+    width: 400px;
+    color: white;
+    background-color: blue;
+    margin: 40px auto;
+}

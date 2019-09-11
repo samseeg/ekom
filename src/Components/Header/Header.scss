@@ -1,10 +1,11 @@
 .headerWrapper {
+    position: relative;
     height: 84px;
     background: white;
     text-align: center;
 
     display: grid;
-    grid-template-columns: 120px repeat(2, 150px) 1fr 150px 120px;
+    grid-template-columns: 140px repeat(2, 150px) 1fr 150px 140px;
     grid-template-areas:
         "logo type gender ... search bag"
 }
@@ -57,7 +58,8 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	align-items: center;
+    align-items: center;
+    width: 101%;
 
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
